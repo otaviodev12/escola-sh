@@ -1,0 +1,125 @@
+header img{
+    
+     width: 100%;
+     height: 500px;
+    
+
+
+}
+body{
+    margin: 0%;
+}
+   
+        h1{
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+        }
+    
+            * { box-sizing: border-box; }
+    
+    .slider {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      height: 400px;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .slides {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .slide {
+      min-width: 100%;
+    }
+
+    .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+      
+        body{
+          margin: 0%;
+        }
+
+    .bloco-texto {
+  background-color: aliceblue;
+  border-left: 6px solid #2b6cb0;
+  padding: 35px 45px;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+  font-size: 17px;
+  margin: 40px auto;
+  width: 90%; 
+  box-sizing: border-box;
+    }
+    
+ .bloco-texto h2 {
+       text-align: center;
+  color: #1a4f8b;
+  margin-bottom: 25px;
+  font-size: 24px;
+    }
+
+    .bloco-texto p {
+      margin-bottom: 14px;
+    }
+
+    .destaque {
+      color: #1a4f8b;
+      font-weight: bold;
+    }
+     .bloco-texto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+        
+  
+
+@media (max-width: 480px) {
+  .bloco-texto{
+    
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    border-left-width: 3px;
+  }
+  .bloco-texto h2 {
+    font-size: 20px;
+     
+    
+    
+   
+  }
+}

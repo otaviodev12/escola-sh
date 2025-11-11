@@ -1,0 +1,141 @@
+header img{
+    
+     width: 100%;
+     height: 500px;
+    
+
+
+}
+
+
+#text  {
+    display: block;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+   .slider {
+            position: relative;
+            max-width: 800px;
+            
+            overflow: hidden;
+            border-radius: 20px;
+            
+            margin-left: 500px;
+        }
+        @media (max-width: 768px) {
+   .slider{
+  
+    width: 500px;
+    height: auto;
+    left: 50px;
+   
+    margin: 0;
+    
+  }
+    
+  }
+        
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .slide {
+            min-width: 100%;
+            transition: opacity 0.5s;
+        }
+
+        .slide img {
+            width: 100%;
+            height: auto;
+            display: block;
+
+           
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: #fff;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
+        }
+       
+         .bloco-texto {
+  background-color: aliceblue;
+  color: #333;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: justify;
+  margin: 40px auto; 
+  width: 90%;
+  box-sizing: border-box; 
+    }
+
+     @media (max-width: 768px) {
+        .bloco-texto{
+              margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    padding: 20px;
+    font-size: 15px;
+          
+       
+          
+        
+        }
+    
+
+    }
+
+
+    .bloco-texto h2 {
+      text-align: center;
+      color: #1d5c8b;
+      margin-bottom: 20px;
+    }
+
+    .bloco-texto p {
+      margin-bottom: 12px;
+    }
+
+    .emoji {
+      font-size: 20px;
+    }
+        body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+    
+    }
+         .bloco-texto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+     

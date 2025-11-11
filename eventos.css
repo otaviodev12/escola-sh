@@ -1,0 +1,308 @@
+header{
+    text-align: center;
+    background-color: blue;
+    padding: 30px;
+    
+  
+}
+body{
+    margin: 0%;
+    
+   
+}
+h1{
+    color: aliceblue;
+}
+#JEMG  a{
+    display: block;
+    
+}
+#JEMG  a :hover{
+      transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+#JEMG h3 {
+    margin-top: -120PX; 
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 60px;
+
+
+}
+#JEMG img{
+    margin-left: 70px;
+}
+
+.event{
+    display: flex;
+
+
+    
+}
+.event2{
+       display: flex;
+  
+}
+
+
+    
+ 
+
+   
+    
+   
+
+#setembro a{
+
+    display: block;
+    margin-right: 100px;
+    
+    
+
+}
+#setembro a :hover{
+         transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+#setembro img{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+    
+
+}
+#setembro h3{
+    text-align: center;
+}
+
+
+#Viagens a{
+
+    display: block;
+    margin-right: 80px;
+   
+    
+    
+
+}
+#Viagens a :hover{
+           transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+
+#Viagens img{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+    
+
+}
+#Viagens h3{
+    text-align: center;
+  
+}
+
+
+ #quadrilia a{
+
+    display: block;
+    margin-right: 100px;
+    
+
+}
+#quadrilia a :hover{
+         transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+
+#quadrilia img{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+    
+
+}
+#quadrilia h3{
+    margin-left: 200px;
+   
+    
+}
+
+
+#ciclismo a{
+
+    display: block;
+    margin-right: 100px;
+    
+
+}
+    #ciclismo a :hover{
+                transform: scale(1.1);
+  transition: transform 0.3s ease;
+ 
+    }
+
+#ciclismo img{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+    
+    
+
+}
+#ciclismo h3{
+    text-align: center;
+}
+
+#palestras a{
+
+    display: block;
+    margin-right: 100px;
+    
+
+}
+#palestras a :hover{
+                   transform: scale(1.1);
+  transition: transform 0.3s ease;
+
+}
+#palestras img{
+    border-radius: 20px;
+    width: 400px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+    
+    
+
+}
+#palestras h3{
+    text-align: center;
+}
+
+/* ================== Responsividade ================== */
+
+/* Tablets e notebooks médios */
+@media (max-width: 1024px) {
+    #JEMG img,
+    #setembro img,
+    #Viagens img,
+    #quadrilia img,
+    #ciclismo img,
+    #palestras img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #logo img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #JEMG h3,
+    #quadrilia h3,
+    #setembro h3,
+    #Viagens h3,
+    #ciclismo h3,
+    #palestras h3 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .event,
+    .event2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        display: flex;/* Título em cima, logo embaixo */
+        
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #logo img {
+        width: 100px;
+        height: 100px;
+       
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        margin-left: 80px;
+        
+    }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+    .event,
+    .event2 {
+        display: block;
+    }
+    
+
+    #JEMG img,
+    #setembro img,
+    #Viagens img,
+    #quadrilia img,
+    #ciclismo img,
+    #palestras img {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #logo img {
+        margin-left: 80px;
+        margin-right: auto;
+        display: block;
+        margin-top: -25px;
+    }
+
+    #JEMG h3{
+        margin-top: -70px;
+    }
+    #quadrilia h3,
+    #setembro h3,
+    #Viagens h3,
+    #ciclismo h3,
+    #palestras h3 {
+        
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #setembro a,
+    #Viagens a,
+    #quadrilia a,
+    #ciclismo a,
+    #palestras a {
+        margin-right: 0;
+    }
+}

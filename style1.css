@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header  */
+
+header{
+    padding: 20px;
+    background-color: blue;
+    padding-inline: 16px;
+    margin-inline: auto;
+
+}
+#titulo{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#sub{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#menu, a {
+    text-align: end;
+    color: white;
+    word-spacing: 5px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+    
+}
+#logo{
+    max-width: 200px;
+    margin-top: -200px;
+}
+
+
+
+.hamburguer{
+    border:none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+
+}
+.hamburguer::before ,
+.hamburguer::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px ;
+    background: #fff ;
+    margin-top: 5px;
+}
+
+@media(max-width:750px){
+    .hamburguer{
+        display: block;
+        
+    }
+}
+
+
+
+
+
+
+ /* fechamento header  */
+
+
+
+

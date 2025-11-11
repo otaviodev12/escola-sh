@@ -1,0 +1,101 @@
+header{
+    text-align: center;
+    background-color: blue;
+    padding: 30px;
+    
+  
+}
+body{
+    margin: 0%;
+}
+
+  #logo img{
+  width: 150px;
+  height: 150px;
+  margin-top: -100px;
+  margin-left: 380px;
+
+  
+  
+}
+.cabecario{
+    text-align: center;
+    color: black;
+}
+  body {
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+    }
+
+    header {
+      background-color: #0d00ff;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .info {
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+    .info i {
+      color: #004aad;
+      margin-right: 8px;
+    }
+
+    h2 {
+      color: #004aad;
+      border-bottom: 2px solid #004aad;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    footer {
+
+      
+      color: rgb(17, 16, 16);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 0.95rem;
+      margin-top: auto;
+      
+    
+     
+     
+    }
+    
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 15px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+
+
